@@ -1,0 +1,37 @@
+nav {
+  ul {
+    padding: 0px;
+    text-align: center;
+    li {
+      display: inline-block;
+      border: 1px solid black;
+      padding: 5px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.brand {
+  h1 {
+    text-align: center;
+  }
+}
+
+.divisions {
+  .AFC {
+    padding: 0px;
+    text-align: center;
+    .team {
+      padding: 0px;
+    }
+  }
+  .NFC {
+    padding: 0px;
+    text-align: center;
+    .team {
+      padding: 0px;
+    }
+  }
+}
