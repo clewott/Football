@@ -4,9 +4,6 @@
 .col-sm-6 {
   padding: 0px; }
 
-.col-xs-12 {
-  padding: 0px; }
-
 nav ul {
   padding: 0px;
   text-align: center; }
@@ -27,7 +24,7 @@ nav ul {
     padding: 0px;
     min-height: 150px; }
     .divisions .AFC .teams img {
-      padding: 0px; }
+      padding: 0px 5px; }
 .divisions .NFC {
   padding: 0px;
   text-align: center; }
@@ -35,4 +32,4 @@ nav ul {
     padding: 0px;
     min-height: 150px; }
     .divisions .NFC .teams img {
-      padding: 0px; }
+      padding: 0px 5px; }
