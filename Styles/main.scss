@@ -1,3 +1,15 @@
+.row {
+  margin: 0px;
+}
+
+.col-sm-6 {
+  padding: 0px;
+}
+
+.col-xs-12{
+  padding: 0px;
+}
+
 nav {
   ul {
     padding: 0px;
@@ -23,15 +35,23 @@ nav {
   .AFC {
     padding: 0px;
     text-align: center;
-    .team {
+    .teams {
       padding: 0px;
+      min-height: 150px;
+      img {
+        padding: 0px;
+      }
     }
   }
   .NFC {
     padding: 0px;
     text-align: center;
-    .team {
+    .teams {
       padding: 0px;
+      min-height: 150px;
+      img {
+        padding: 0px;
+      }
     }
   }
 }
