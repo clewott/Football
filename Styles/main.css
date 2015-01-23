@@ -1,3 +1,7 @@
+body {
+  background-image: URL("../images/turf.jpg");
+  background-size: cover; }
+
 .row {
   margin: 0px; }
 
@@ -14,7 +18,7 @@ nav ul {
   background: -webkit-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
   padding: 0 20px;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   list-style: none;
   text-align: center; }
 
@@ -46,19 +50,28 @@ nav ul li a {
 .brand h1 {
   text-align: center; }
 
-.divisions .AFC {
-  padding: 0px;
-  text-align: center; }
-  .divisions .AFC .teams {
+.divisions {
+  color: white; }
+  .divisions h3 {
+    color: black;
+    background-color: rgba(250, 250, 250, 0.6);
+    width: 500px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 5px; }
+  .divisions .AFC {
     padding: 0px;
-    min-height: 150px; }
-    .divisions .AFC .teams img {
-      padding: 0px 5px; }
-.divisions .NFC {
-  padding: 0px;
-  text-align: center; }
-  .divisions .NFC .teams {
+    text-align: center; }
+    .divisions .AFC .teams {
+      padding: 0px;
+      min-height: 150px; }
+      .divisions .AFC .teams img {
+        padding: 0px 5px; }
+  .divisions .NFC {
     padding: 0px;
-    min-height: 150px; }
-    .divisions .NFC .teams img {
-      padding: 0px 5px; }
+    text-align: center; }
+    .divisions .NFC .teams {
+      padding: 0px;
+      min-height: 150px; }
+      .divisions .NFC .teams img {
+        padding: 0px 5px; }
